@@ -1,0 +1,12 @@
+[conf]
+project_name = "cel-autom"
+lang_version = "17"
+bin_dir = "build/"
+src_files = ["src/main.cpp", "src/Cell.cpp", "src/CGLife.cpp"]
+header_files = ["src/Cell.h", "src/CGLife.h", "src/Util.h"]
+flags = ["-Wall"]
+compiler = "g++"
+build_type = "Debug"
+linker_flags = ["SDL2", "fmt"]
+build_all = true
+
