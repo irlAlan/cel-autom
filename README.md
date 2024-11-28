@@ -2,6 +2,13 @@
 
 Trying my hand at making a clone of conways game of life
 
+# Usage
+
+This project relies on my gcreate project.
+
+1. Install gcreate
+2. call `gcreate build` (compiles into the build directory)
+3. call `gcreate run` (optional)
 
 # Issues
 
